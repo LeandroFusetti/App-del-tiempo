@@ -1,0 +1,44 @@
+.containterCards{
+    
+    display: flex;
+   
+    flex-direction: column;
+    align-items: center;
+    border: solid rgb(150, 148, 148) 1px;
+    background-color: white;
+    width: fit-content;
+    padding: 5px;
+    margin-right: 50px;
+    border-radius: 10px;
+}
+
+.closeButton{
+    height: 30px;
+    width: 30px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    position: relative;
+    left: 150px;
+}
+
+.containterItems{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0px;
+    background-color: white;
+    width: 350px;
+}
+
+.containterItems div{
+    margin: 30px ;
+}
+
+p{
+    font-size: 20px;
+}
+
+h2{
+    color: blue;
+}
